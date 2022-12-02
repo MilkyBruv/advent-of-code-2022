@@ -26,6 +26,7 @@ public class Part2 {
 
         String[] sets = fullData.split("\n\n");
         NumSet[] numSets = new NumSet[sets.length];
+        int[] finalNums = new int[sets.length];
 
         int count = 0;
 
@@ -33,31 +34,17 @@ public class Part2 {
 
             numSets[count] = new NumSet(set.split("\n"));
 
+            finalNums[count] = numSets[count].total;
+
             count++;
 
         }
 
-        List<Integer> sortedNums = new ArrayList<>() {};
+        Arrays.sort(finalNums);
 
-        for (NumSet numSet : numSets) {
-            
-            sortedNums.add(numSet.total);
+        int finalTotal = finalNums[finalNums.length - 1] + finalNums[finalNums.length - 2] + finalNums[finalNums.length - 3];
 
-        }
-
-        Arrays.sort(sortedNums.toArray());
-
-        int highestNum = sortedNums.get(sortedNums.size() - 1);
-        int secHighestNum = sortedNums.get(sortedNums.size() - 2);
-        int thiHighestNum = sortedNums.get(sortedNums.size() - 3);
-
-        System.out.println(highestNum);
-        System.out.println(secHighestNum);
-        System.out.println(thiHighestNum);
-
-        int total = highestNum + secHighestNum + thiHighestNum;
-
-        System.out.println("Total: " + total);
+        System.out.println(finalTotal);
 
     }
 
