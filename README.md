@@ -47,10 +47,10 @@ This project is to test my ability to learn new skills within a small timeframe 
 | C# | 0/1 |
 | Kotlin | 0/1 |
 | Lua | 0/1 |
-| x | 0/1 |
-| x | 0/1 |
-| x | 0/1 |
-| x | 0/1 |
+| F | 0/1 |
+| F# | 0/1 |
+| Haskell | 0/1 |
+| Common Lisp | 0/1 |
 | x | 0/1 |
 | x | 0/1 |
 | x | 0/1 |
