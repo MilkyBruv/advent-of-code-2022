@@ -1,6 +1,7 @@
 # Advent of Code 2022
 
 | Day | Stars | Language |
+| --- | --- | --- |
 | Day 1 | ⭐⭐ | Java |
 | Day 2 | ⭐ | Ruby |
 | Day 3 |  | x |
