@@ -2,7 +2,7 @@
 
 ![Link to Advent Of Code website](https://adventofcode.com/)
 
-I will be only using each language 2x max, but I cannot use the same language for the rest of the week
+I will be only using each language once
 
 This project is to test my ability to learn new skills within a small timeframe to reach a simple goal
 
@@ -40,16 +40,30 @@ This project is to test my ability to learn new skills within a small timeframe 
 
 | Language | Times Used |
 | --- | --- |
-| Java | 1/2 |
-| Ruby | 1/2 |
-| C | 0/2 |
-| C++ | 0/2 |
-| C# | 0/2 |
-| Kotlin | 0/2 |
-| Lua | 0/2 |
-| x | 0/2 |
-| x | 0/2 |
-| x | 0/2 |
-| x | 0/2 |
-| x | 0/2 |
-| x | 0/2 |
+| Java | 1/1 |
+| Ruby | 1/1 |
+| C | 0/1 |
+| C++ | 0/1 |
+| C# | 0/1 |
+| Kotlin | 0/1 |
+| Lua | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
+| x | 0/1 |
