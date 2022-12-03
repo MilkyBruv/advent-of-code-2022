@@ -12,7 +12,7 @@ This project is to test my ability to learn new skills within a small timeframe 
 | --- | --- | --- |
 | 1 | ⭐⭐ | Java |
 | 2 | ⭐⭐ | Ruby |
-| 3 |  |  |
+| 3 |  | C |
 | 4 |  |  |
 | 5 |  |  |
 | 6 |  |  |
@@ -51,9 +51,9 @@ This project is to test my ability to learn new skills within a small timeframe 
 | F# | 0/1 |
 | Haskell | 0/1 |
 | Common Lisp | 0/1 |
-| x | 0/1 |
-| x | 0/1 |
-| x | 0/1 |
+| Python | 0/1 |
+| JS | 0/1 |
+| TS | 0/1 |
 | x | 0/1 |
 | x | 0/1 |
 | x | 0/1 |
