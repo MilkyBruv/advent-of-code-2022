@@ -1,4 +1,5 @@
-static char data[300][50] = {
+static char prior_chars[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+static char data[300][52] = {
 
     "QJRBMDMtRDCtJzBtJMfjNjhwvmNDvwjLVVgh",
     "TPSNNPZGTjgmSmvfjL",
