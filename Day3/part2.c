@@ -10,11 +10,13 @@ int main(int argc, char const *argv[])
     int a;
     int b;
     int c;
+    int x;
     int total = 0;
     int count = 0;
     int rem;
-    char groups[100][3];
-    char new_data[3];
+    char* groups[100][3];
+    char* new_data[3];
+    char match_char;
 
     for (i = 0; i < 300; i++)
     {
@@ -37,31 +39,35 @@ int main(int argc, char const *argv[])
     for (j = 0; j < 100; j++)
     {
         
+        // Check for matching chars in both halves
         for (a = 0; a < strlen(groups[j][0]); a++)
         {
-            
-            for (b = 0; b < strlen(groups[j][1]); b++)
+        
+            if (strchr(groups[j][1], groups[j][0][a]) != NULL && strchr(groups[j][2], groups[j][0][a]) != NULL)
             {
-            
-                for (c = 0; c < strlen(groups[j][2]); c++)
+
+                match_char = groups[j][0][a];
+
+                // Get priority value relative to matching char
+                for (x = 0; x < strlen(prior_chars); x++)
                 {
-            
-                    if (groups[j][0][a] == groups[j][0][a])
+                    
+                    if (match_char == prior_chars[x])
                     {
 
-                        //
-
+                        total += x + 1;
+                        
                     }
 
                 }
 
+                break;
+
             }
 
         }
-        
 
     }
-    
     
     printf("Total: %i", total);
 
