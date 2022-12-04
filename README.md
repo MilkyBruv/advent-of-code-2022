@@ -4,12 +4,12 @@
 
 ## Current Calendar Status
 
-| Day | Stars | Language |
-| --- | --- | --- |
-| 1 | ⭐⭐ | Java |
-| 2 | ⭐⭐ | Ruby |
-| 3 | ⭐⭐ | C |
-| 4 |  |  |
+| Day | Stars | Language | Time Taken |
+| --- | --- | --- | --- |
+| 1 | ⭐⭐ | Java | 1.5h |
+| 2 | ⭐⭐ | Ruby | 1.7h |
+| 3 | ⭐⭐ | C | 6.2h |
+| 4 | ⭐⭐ | Python | 1.8h |
 | 5 |  |  |
 | 6 |  |  |
 | 7 |  |  |
