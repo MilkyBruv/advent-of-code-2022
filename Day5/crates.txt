@@ -1,0 +1,7 @@
+F,H,B,V,R,Q,D,P
+L,D,Z,Q,W,V
+H,L,Z,Q,G,R,B
+Z,W,L,C
+J,R,P,N,T,G,V,M
+D,P,J
+D,C,N,W,V

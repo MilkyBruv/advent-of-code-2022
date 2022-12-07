@@ -11,6 +11,7 @@ public class Part2 {
     
     public static void main(String[] args) throws FileNotFoundException {
         
+        // Get data from file
         File file = new File("Day1/data.txt");
         Scanner reader = new Scanner(file);
         String fullData = "";

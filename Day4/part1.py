@@ -1,8 +1,6 @@
 # Pair class
 class Pair():
 
-    total = 0
-
     def __init__(self, line) -> None:
         
         self.nums = line.split(",")

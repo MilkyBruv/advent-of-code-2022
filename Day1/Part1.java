@@ -10,6 +10,10 @@ public class Part1 {
     
     public static void main(String[] args) throws FileNotFoundException {
         
+        // Variable declarations
+        int highestNum = 0;
+
+        // Get lines from file
         File file = new File("Day1/data.txt");
         Scanner reader = new Scanner(file);
         String fullData = "";
@@ -35,8 +39,6 @@ public class Part1 {
             count++;
 
         }
-
-        int highestNum = 0;
 
         for (NumSet numSet : numSets) {
 
