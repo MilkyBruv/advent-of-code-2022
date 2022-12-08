@@ -23,12 +23,12 @@ int main(int argc, char const *argv[])
     while (count == 0)
     {
 
-        for (i = 0; i < line.length() - 4; i++)
+        for (i = 0; i < line.length() - 14; i++)
         {
             
             packet = "";
 
-            for (j = 0; j < 4; j++)
+            for (j = 0; j < 14; j++)
             {
                 
                 if (packet.find(line[i + j]) != string::npos)
@@ -47,7 +47,7 @@ int main(int argc, char const *argv[])
 
             cout << packet << " " << count << ", ";
 
-            if (packet.length() == 4)
+            if (packet.length() == 14)
             {
 
                 count = i + j;
